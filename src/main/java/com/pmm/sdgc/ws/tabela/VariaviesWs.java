@@ -33,7 +33,7 @@ import javax.ws.rs.core.Response;
 Para acessar o caminho é: http://localhost:8080/SpvWs/rest/webservice/******
  */
 @Named
-@Path("variaveisTemp")
+@Path("variaveis")
 @Produces(MediaType.APPLICATION_JSON)
 @Consumes(MediaType.APPLICATION_JSON)
 public class VariaviesWs {
